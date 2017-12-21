@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# This message define the property of deteced object
+# This message define the property of detected object
 uint32 label        # label of object defined in dataset classes
 string object_name  # object's name
 float32 probability # probability of detected object
