@@ -13,6 +13,5 @@
 # limitations under the License.
 
 # This message define the property of detected object
-uint32 label        # label of object defined in dataset classes
-string object_name  # object's name
+string object_name  # object name
 float32 probability # probability of detected object
