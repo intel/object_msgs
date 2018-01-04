@@ -13,5 +13,5 @@
 # limitations under the License.
 
 # This message can represent a detected object and its region of interest
-Object object                     # object detected
+Object object                     # detected object
 sensor_msgs/RegionOfInterest roi  # region of interest

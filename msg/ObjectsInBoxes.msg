@@ -15,3 +15,4 @@
 # This message can represent objects detected and their bounding-boxes in a frame
 std_msgs/Header header        # timestamp in header is the time the sensor captured the raw data
 ObjectInBox[] objects_vector  # ObjectInBox array
+float32 inference_time_ms     # inference time of this frame. the unit is millisecond.

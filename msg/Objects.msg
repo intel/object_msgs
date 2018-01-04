@@ -13,5 +13,6 @@
 # limitations under the License.
 
 # This message can represent objects detected in a frame
-std_msgs/Header header  # timestamp in header is the time the sensor captured the raw data
-Object[] objects_vector # Object array
+std_msgs/Header header    # timestamp in header is the time the sensor captured the raw data
+Object[] objects_vector   # Object array
+float32 inference_time_ms # inference time of this frame. the unit is millisecond.
