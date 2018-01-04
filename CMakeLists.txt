@@ -28,6 +28,11 @@ add_message_files(DIRECTORY msg FILES
   ObjectsInBoxes.msg
 )
 
+add_service_files(DIRECTORY srv FILES
+  ClassifyObject.srv
+  DetectObject.srv
+)
+
 generate_messages(DEPENDENCIES
   std_msgs
   sensor_msgs
