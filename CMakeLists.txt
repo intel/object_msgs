@@ -31,6 +31,7 @@ add_message_files(DIRECTORY msg FILES
 add_service_files(DIRECTORY srv FILES
   ClassifyObject.srv
   DetectObject.srv
+  DetectObjectSrv.srv
 )
 
 generate_messages(DEPENDENCIES
